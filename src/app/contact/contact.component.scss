@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Nunito&family=Oswald&family=Playpen+Sans:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500&family=Poppins:wght@400;600&display=swap');
+.contact{
+    background: linear-gradient(180deg, rgb(0, 191, 255), rgb(145, 255, 0));
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    a{
+        text-decoration: none;
+    }
+    &__main{
+        input{
+            width: 200px;
+            height: 30px;
+            border: 0;
+            background-color: lightslategray;
+            border-radius: 10px;
+        }
+        textarea{
+            width: 200px;
+            height: 30px;
+            border: 0;
+            background-color: lightslategray;
+            border-radius: 10px;
+        }
+        button{
+            border: 0;
+            width: 100px;
+            border-radius: 10px;
+            background: linear-gradient(160deg , rgb(234, 54, 54) ,rgb(242, 242, 74));
+            color: white;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+}
